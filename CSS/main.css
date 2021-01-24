@@ -11,8 +11,7 @@ html{
 }
 
 a {
-    text-decoration: none;
-    cursor: pointer;
+    
 }
 
 .main-nav {
@@ -35,6 +34,8 @@ a {
     margin-right: 18px;
     color: #000000;   
     font-weight: 400; 
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .main-nav__menu-icon {
@@ -127,6 +128,39 @@ a {
     border-radius: 5px;
     padding: 0 15px;
     margin-right: 15px;
+}
+
+.main-footer {
+    width: 100%;
+    height: 50px;    
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;   
+}
+
+.main-footer__element {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.footer-left {
+    justify-self: left;
+}
+
+.footer-right {
+    justify-self: right;
+}
+
+.main-footer__link {
+    margin: 10px;
+    color: #5f6368;
 }
 
 .main-buttons__button:hover {
